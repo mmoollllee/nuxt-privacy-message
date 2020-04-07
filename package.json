@@ -1,0 +1,37 @@
+{
+  "name": "nuxt-privacy-message",
+  "version": "0.0.1",
+  "description": "Opt-In Cookie Banner with different categories",
+  "repository": "mmoollllee/nuxt-privacy-message",
+  "private": false,
+  "files": [
+    "components"
+  ],
+  "main": "module.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt example",
+    "demo": "nuxt generate example",
+    "lint": "eslint --ext .js,.vue example lib test",
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "dependencies": {
+    "nuxt-vuex-localstorage": "^1.2.6",
+    "js-cookie": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "babel-eslint": "latest",
+    "codecov": "latest",
+    "eslint": "latest",
+    "nuxt-edge": "latest",
+    "standard-version": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
